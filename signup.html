@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sign up</title>
+    <style>
+        body{
+            height: 1100px;
+          background-image: url("pizzasback.jpg");
+          background-size: 2200px 1400px;         
+           background-attachment: fixed;
+        }
+        #register
+        {
+            margin-left: 600px;
+            text-align: left;
+            background-color:black;
+            font-size: 30px;
+            width: 600px;
+            border-radius: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            color: bisque;
+        }
+        #facebook{
+            margin-top: 0px;
+
+        background-color:black;
+        font-size: 30px;
+        color: bisque;
+        width: 500px;
+       text-align: left;
+       border-radius: 10px;
+       padding:10px 10px 10px 10px;
+        }
+        #whole{
+            text-align: left;
+            color:cornsilk;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+        }
+        #top{
+        text-align: center;
+            margin-top: 30px;
+            color: bisque;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+        <div id="top" >
+                 Premium Deals <select name="deals" style="padding:10px 20px; font-size:15px; border-radius: 7px;  color: blanchedalmond ; background-color: black;" id=""> <option value="name 1"selected="selected">Premium deals on</option><option value="pizzas">Pizzas</option> <option value="wings">Wings</option> <option value="salad">Salads</option>
+                
+                </select>             Contact Us<select name="contact us" style="padding:10px 20px; font-size:15px; border-radius: 7px;  color: blanchedalmond ; background-color: black;" id="">
+                        <option value="facebook">Facebook</option>
+                        <option value="insta">nstagram</option>
+                    </select>
+                    
+                    <input type="search" placeholder="search" style="padding:10px 20px; font-size:15px;border-radius: 7px; color: blanchedalmond ; background-color: black;">
+                    <input type="submit" value="search" style="padding:10px 20px; font-size:15px;border-radius: 7px;">
+                
+                </div>
+            
+    <div id="whole">
+        <img src="logo.png" alt="" width="500px" height="400px">
+        <p><b>THE PIZZA RESTAURANT</b></p>
+    </div>
+    <div id="register">
+        <fieldset>
+            <legend>REGISTER NOW</legend>
+    <form action="catlog.html" method="POST" style="text-align: left" >
+       <p style="text-align:centre";>
+         <label for=""> username: </label>
+          <input type="text" name="username" maxlength="15" placeholder="username" style="border-radius:7px; padding:10px 20px;">
+       </p>
+       <p>
+          <label for=""> Email:</label>
+           <input type="email" name="email" placeholder="Email address" required="required" style="border-radius:7px; padding:10px 20px;" >
+       </p>
+       
+       <p>
+          <label for="">address:</label> 
+           <input type="text" name="adresss" required="required" placeholder="address" style="border-radius:7px; padding:10px 20px;">
+       </p>
+      
+       <p>
+           Mobile:
+           <input type="text" name="mobile" id="" style="border-radius:7px; padding:10px 20px;">
+       </p>
+       
+       <p>
+           <label for="">  password:</label>
+        <input type="password" name="password" maxlength="7" placeholder="enter  7 character pssword" required="required" style="border-radius:7px; padding:10px 20px;">   
+       </p>
+       
+       <p>
+           Confirm password:
+           <input type="password" name="confirm" maxlength="7" placeholder="Enter again" required="required"style="border-radius:7px; padding:10px 20px;">
+       </p>
+      <br/>
+      <br/>
+      <input type="submit" value="sign up" style="padding:10px 20px; font-size:10px;" >     <input type="reset" name="reset"style="padding:10px 20px; font-size:10px;">
+    </form>
+</fieldset>
+    </div>
+</body>
+</html>

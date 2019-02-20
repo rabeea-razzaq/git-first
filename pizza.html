@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pizza order</title>
+    <style>
+            body{
+                height: 1100px;
+          background-image: url("pizzasback.jpg");
+          background-size: 2200px 1400px;         
+           background-attachment: fixed;
+            }
+            div{
+                margin-top: 20px;
+                background-color: black;
+                border-radius: 10px;
+                padding: 15px;
+                color: bisque; 
+                width: 600px
+            }
+        </style>
+</head>
+<body>
+        <div>
+                            <form action="final.html" method="POST" >
+                   <fieldset>
+                       <legend>ORDER PLACEMENT</legend>
+                       <p>
+                           <label for=""> First name:</label>
+                           <input type="text" name="firstname" placeholder="first name" required="required" style="border-radius:5px"; style="text-allign:centre";>
+                       </p>
+                       <br/>
+                       <p>
+                           <label for="">Last name:</label>
+                           <input type="text " name="lastname" placeholder="last name" required="required" style="border-radius: 5px";>
+                    
+                       </p>
+                       <br/>
+                       <p>
+                           <label for="">Email:</label>
+                           <input type="email" name="email" placeholder="email address" required="required" style="border-radius:5px">
+                       </p>
+                       <br/>
+                       <p>
+                           <label for="">Mobile :</label>
+                           <input type="text" name="mobile" placeholder="mobile number" required="required" style="border-radius:5px">
+                       </p>
+                       <br/>
+                       <p>
+                           <label for="">Flavours:</label>
+                           <select name="flavours" id="">
+                               <option value="chicken"> tikka BBQ</option>
+                               <option value="veg"> veg fajita</option>
+                               <option value="cickencheese"> Mania special</option>
+                           </select>
+            
+                       </p>
+                       <br/><p>
+                           <label for="">Quantity:</label> 
+                           <input type="text" name="quntity" placeholder="quantity" required style="border-radius:5px">
+                       </p>
+                       <br/>
+                       <p>
+                           <label for="">Add ons:</label>
+                           <select name="addon" id="">
+                               <option value="coldrink"> colddrink</option>
+                               <option value="water">water bottle</option>
+                               <option value="toping">Toppings</option>
+                           </select>
+                       </p>
+                       <p>
+                         * Enter the discount code that you have been given if you have an account  *
+                       </p>
+                       <p>
+                           Order notes:
+                           <input type="text" name="oredr">
+                       </p>
+                       <br/>
+                       <input type="submit" value="confirm order" style="text-align: left">
+                   </fieldset>
+                </form>
+            
+            </div>
+            
+</body>
+</html>
